@@ -12,6 +12,6 @@ module org.example.adressbook {
     requires com.almasb.fxgl.all;
     requires java.prefs;
 
-    opens org.example.adressbook to javafx.fxml;
-    exports org.example.adressbook;
+    opens ch.makery.address;
+    exports ch.makery.address;
 }
