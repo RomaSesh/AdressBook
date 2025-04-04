@@ -1,4 +1,4 @@
-package ch.makery.address;
+package com.example.addressapp;
 
 import java.io.File;
 import java.io.IOException;
@@ -20,13 +20,14 @@ import javafx.stage.Stage;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
+import javax.xml.bind.JAXBContext;
 
-import ch.makery.address.model.Person;
-import ch.makery.address.model.PersonListWrapper;
-import ch.makery.address.view.BirthdayStatisticsController;
-import ch.makery.address.view.PersonEditDialogController;
-import ch.makery.address.view.PersonOverviewController;
-import ch.makery.address.view.RootLayoutController;
+import com.example.addressapp.model.Person;
+import com.example.addressapp.model.PersonListWrapper;
+import com.example.addressapp.view.BirthdayStatisticsController;
+import com.example.addressapp.view.PersonEditDialogController;
+import com.example.addressapp.view.PersonOverviewController;
+import com.example.addressapp.view.RootLayoutController;
 
 public class MainApp extends Application {
 

@@ -1,4 +1,4 @@
-package ch.makery.address.view;
+package com.example.addressapp.view;
 
 import java.text.DateFormatSymbols;
 import java.util.Arrays;
@@ -11,7 +11,7 @@ import javafx.fxml.FXML;
 import javafx.scene.chart.BarChart;
 import javafx.scene.chart.CategoryAxis;
 import javafx.scene.chart.XYChart;
-import ch.makery.address.model.Person;
+import com.example.addressapp.model.Person;
 
 /**
  * The controller for the birthday statistics view.

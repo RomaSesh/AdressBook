@@ -1,4 +1,4 @@
-package ch.makery.address.view;
+package com.example.addressapp.view;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
@@ -6,9 +6,9 @@ import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
-import ch.makery.address.MainApp;
-import ch.makery.address.model.Person;
-import ch.makery.address.util.DateUtil;
+import com.example.addressapp.MainApp;
+import com.example.addressapp.model.Person;
+import com.example.addressapp.util.DateUtil;
 
 public class PersonOverviewController {
     @FXML

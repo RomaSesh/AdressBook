@@ -1,4 +1,4 @@
-package ch.makery.address.util;
+package com.example.addressapp.util;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;

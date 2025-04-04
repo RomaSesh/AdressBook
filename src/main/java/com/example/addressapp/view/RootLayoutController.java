@@ -1,4 +1,5 @@
-package ch.makery.address.view;
+package com.example.addressapp.view;
+
 
 import java.io.File;
 
@@ -6,7 +7,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
 import javafx.stage.FileChooser;
-import ch.makery.address.MainApp;
+import com.example.addressapp.MainApp;
 
 /**
  * The controller for the root layout. The root layout provides the basic
